@@ -2,8 +2,7 @@
 
 @font-face {
     font-family: 'DungGeunMo';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff')
-        format('woff');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,7 +34,8 @@ a {
 /* 태그 여백 조정 */
 #member,
 #guestbook {
-    scroll-margin-top: 80px; /* 헤더 높이만큼 여백 설정 */
+    scroll-margin-top: 80px;
+    /* 헤더 높이만큼 여백 설정 */
 }
 
 /* 서브타이틀 폰트 스타일 */
@@ -139,5 +139,5 @@ p {
 /* 방명록 스타일 */
 .guestbookWrap__content {
     background: #eee;
-    height: 1000px;
+    height: auto;
 }
