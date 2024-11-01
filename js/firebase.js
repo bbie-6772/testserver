@@ -5,12 +5,14 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
 
 import {
+    getFirestore,
     collection,
     addDoc,
     getDocs,
-    getFirestore,
     setDoc,
     doc,
+    orderBy,
+    query,
     deleteDoc,
 } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
 import {
@@ -45,5 +47,7 @@ export {
     ref,
     uploadBytes,
     getDownloadURL,
+    orderBy,
+    query,
     deleteDoc,
 };
