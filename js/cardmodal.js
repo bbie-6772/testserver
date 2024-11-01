@@ -209,7 +209,7 @@ loadCards();
 
 $(document).ready(function () {
     $('#plsbtn').click(function () {
-        window.location.href = 'addcard.html';
+        window.location.href = 'includes/addcard.html';
     });
 
     const $scrollContainer = $('.memberCardWrap__content');
